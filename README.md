@@ -43,7 +43,7 @@ python femgui.py
 
 ## Known Issues
 ### Program crashes due to 'singular matrix' error
-This is most likely due to bad geometry. You should probably check your units and provided dimensions, and make sure that you dont' have any overlapping edges (e.g.: a hole that overlaps an external boundary!)
+This is most likely due to bad geometry. You should probably check your units and provided dimensions, and make sure that you don't have any overlapping edges (e.g.: a hole that overlaps an external boundary!)
 
 ### Program seems to time out during execution stage
 This is most likely due to an over-meshed setting. Try reducing (that is, increasing) the 'Max El. Size' setting and/or toggling off the 'Refine' setting before trying to execute the calculation again.
