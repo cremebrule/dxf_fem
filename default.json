@@ -1,0 +1,60 @@
+{
+    "E": 20.8,
+    "bp": [
+        [
+            "bc"
+        ],
+        [
+            0.0
+        ]
+    ],
+    "c": {
+        "a": 5,
+        "aEnd": 10,
+        "aStart": 5,
+        "b": 2.5,
+        "bEnd": 7,
+        "bStart": 2.5,
+        "paramA": false,
+        "paramB": false,
+        "aName": "a",
+        "bName": "b"
+    },
+    "fp": [
+        [
+            "force0"
+        ],
+        [
+            1000000.0
+        ],
+        [
+            45
+        ]
+    ],
+    "d": [
+        [
+            "dim1",
+            "None"
+        ],
+        [
+            "dim2",
+            "None"
+        ],
+        [
+            "dim3",
+            "None"
+        ]
+    ],
+    "mp": [
+        2,
+        2,
+        0.375
+    ],
+    "paramSteps": 5,
+    "ptype": 1,
+    "t": 0.15,
+    "v": 0.2,
+    "version": 1,
+    "dxf_filename": "default.dxf",
+    "units": "SI"
+}

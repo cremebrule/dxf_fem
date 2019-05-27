@@ -1,0 +1,60 @@
+{
+    "E": 20.8,
+    "bp": [
+        [
+            "bc"
+        ],
+        [
+            0.0
+        ]
+    ],
+    "c": {
+        "a": 0.625,
+        "aEnd": 2.25,
+        "aName": "hole0",
+        "aStart": 0.625,
+        "b": 4.0,
+        "bEnd": 6.0,
+        "bName": "a",
+        "bStart": 4.0,
+        "paramA": true,
+        "paramB": true
+    },
+    "d": [
+        [
+            "dim1",
+            -1.0
+        ],
+        [
+            "dim2",
+            -1.0
+        ],
+        [
+            "dim3",
+            -1.0
+        ]
+    ],
+    "dxf_filename": "frame1.dxf",
+    "fp": [
+        [
+            "hole0"
+        ],
+        [
+            3000000.0
+        ],
+        [
+            270.0
+        ]
+    ],
+    "mp": [
+        2,
+        2,
+        0.367
+    ],
+    "paramSteps": 5,
+    "ptype": 1,
+    "t": 0.15,
+    "v": 0.2,
+    "version": 1,
+    "units": "SI"
+}
