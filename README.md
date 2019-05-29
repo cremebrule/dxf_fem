@@ -12,11 +12,11 @@ conda install -c anaconda pyqt
 pip install calfem-python
 ```
 
-Any additional dependencies that cannot be found can usually be installed with pip install {pkg_name}. A quick google search usually clears up most errors during this stage.
+Any additional dependencies that cannot be found can usually be installed with `pip install {pkg_name}`. A quick google search usually clears up most errors during this stage.
 
 Next, a couple small adjustments must be made to fix some bugs in the installed packages.
 
-In package **dxf2svg**, within module **pycore.py**, replace any instance of:
+In package `dxf2svg`, within module `pycore.py`, replace any instance of:
 
 ```
 get_rstrip_points()
