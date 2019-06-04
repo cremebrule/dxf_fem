@@ -31,7 +31,11 @@ get_points()
 Next, to solve a retina screen viewing bug in VisVis, please see the following thread to implement the quick fix:
 https://github.com/almarklein/visvis/issues/97
 
-A couple of additional software programs must be installed to run and view the output FEM data -- **Gmsh** and **ParaView**. Gmsh can be installed from http://gmsh.info/, and ParaView from https://www.paraview.org/. On Mac, the default download location is sufficient; on Windows or Linux, Gmsh may have to be moved to the current working directory that includes this program.
+A couple of additional software programs must be installed to run and view the output FEM data -- **Gmsh** and **ParaView**. Gmsh can be installed from http://gmsh.info/, and ParaView from https://www.paraview.org/. On Mac, the default download location is sufficient; on Windows or Linux, the file path must be specified. In module `femModel.py`, insert the following line at line 175 (after `meshGen.returnBoundaryElements = True`), where `{path_to_gmsh application executable}` is the absolute filepath location to the GMSH application executable:
+
+```
+meshGen.gmsh_exec_path='{path_to_gmsh application executable}'
+```
 
 DXF files are assumed to be created in AutoCAD; this software can be downloaded from https://www.autodesk.com/products/autocad/overview
 
