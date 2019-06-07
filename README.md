@@ -12,9 +12,8 @@ conda install -c anaconda pyqt
 pip install calfem-python
 ```
 
-Documentation for dxf2svg can be found [HERE: dxf2svg](https://bitbucket.org/lukaszlaba/dxf2svg/wiki/Home)
-
-Documentation for dxfgrabber can be found [HERE: dxfgrabber](https://dxfgrabber.readthedocs.io/en/latest/#)
+- Documentation for dxf2svg can be found [HERE: dxf2svg](https://bitbucket.org/lukaszlaba/dxf2svg/wiki/Home)
+- Documentation for dxfgrabber can be found [HERE: dxfgrabber](https://dxfgrabber.readthedocs.io/en/latest/#)
 
 Any additional dependencies that cannot be found can usually be installed with `pip install {pkg_name}`. A quick google search usually clears up most errors during this stage.
 
@@ -60,5 +59,5 @@ This is most likely due to an over-meshed setting. Try reducing (that is, increa
 This is an ongoing issue with an unclear cause or solution. It seems to be caused after attempting to run a calculation after a period of idleness, or after attempting a computationally-intensive study (e.g: highly-refined mesh setting). Regardless, it never occurs during the first calculation run, nor does it seem to be a deterministic error -- trying the same sequence of FEM calculations sometimes results in a Seg fault, and sometimes doesn't. Anyone with potential ideas towards a solution is more than welcome to request a commit!
 
 ## Documentation
-AutoCAD DXF-header formatting information can be found [HERE: ACAD HEADERS](https://www.autodesk.com/techpubs/autocad/acad2000/dxf/header_section_group_codes_dxf_02.htm)
-PyQt API information can be found [HERE: PyQt](https://doc.qt.io/qtforpython/index.html)
+- AutoCAD DXF-header formatting information can be found [HERE: ACAD HEADERS](https://www.autodesk.com/techpubs/autocad/acad2000/dxf/header_section_group_codes_dxf_02.htm)
+- PyQt API information can be found [HERE: PyQt](https://doc.qt.io/qtforpython/index.html)
