@@ -14,6 +14,8 @@ pip install calfem-python
 
 - Documentation for dxf2svg can be found [HERE: dxf2svg](https://bitbucket.org/lukaszlaba/dxf2svg/wiki/Home)
 - Documentation for dxfgrabber can be found [HERE: dxfgrabber](https://dxfgrabber.readthedocs.io/en/latest/#)
+- Documentation for calfem can be found both [HERE: calfem (fem)](http://www.solid.lth.se/fileadmin/hallfasthetslara/utbildning/kurser/FHL064_FEM/calfem34.pdf)
+ and [HERE: calfem (meshing)](https://github.com/CALFEM/calfem-python)
 
 Any additional dependencies that cannot be found can usually be installed with `pip install {pkg_name}`. A quick google search usually clears up most errors during this stage.
 
