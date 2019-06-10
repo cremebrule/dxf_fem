@@ -20,12 +20,6 @@ import femDXF
 
 import visvis as vv
 
-from visvis.wibjects.colorWibjects import Colorbar
-from visvis import Colormapable
-from visvis.wobjects.textures import minmax
-
-import matplotlib.pyplot as plt
-
 global globalVisVisApp
 
 global visApp
@@ -141,7 +135,7 @@ class Solver(object):
 
     def execute(self):
         # ------ Transfer model variables to local variables
-
+        self.inputData.updateparams()
         version = self.inputData.version
         units = self.inputData.units
         v = self.inputData.v
@@ -158,7 +152,6 @@ class Solver(object):
             bp[1][i] = bp[1][i] * U2SI[units][0]
 
         # Get most updated dxf dimensions and import model geometry to calfem format
-        self.inputData.updateparams()
         self.inputData.dxf.readDXF(self.inputData.dxf_filename)
         for dim in self.inputData.d:
             ("Adjusting Dimension {0} with val {1}".format(dim[0], dim[1] * U2SI[units][0]))

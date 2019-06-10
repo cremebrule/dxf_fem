@@ -81,6 +81,7 @@ class MainWindow(QMainWindow):
         self.ui.actionExecute.triggered.connect(self.onActionExecute)
         self.ui.showGeometryButton.clicked.connect(self.onShowGeometry)
         self.ui.showMeshButton.clicked.connect(self.onShowMesh)
+        self.ui.showMeshButton.setMinimumWidth(180)
         self.ui.showNodalValuesButton.clicked.connect(self.onShowNodalValues)
         self.ui.showElementValuesButton.clicked.connect(self.onShowElementValues)
         self.ui.elSizeSlider.sliderReleased.connect(self.onElSizeSliderMoved)

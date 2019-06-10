@@ -1,0 +1,60 @@
+{
+    "E": 20.8,
+    "bp": [
+        [
+            "clamp0"
+        ],
+        [
+            0.0
+        ]
+    ],
+    "c": {
+        "a": 5.0,
+        "aEnd": 10.0,
+        "aName": "a",
+        "aStart": 5.0,
+        "b": 2.5,
+        "bEnd": 7.0,
+        "bName": "b",
+        "bStart": 2.5,
+        "paramA": false,
+        "paramB": false
+    },
+    "d": [
+        [
+            "dim1",
+            0.02
+        ],
+        [
+            "dim2",
+            -1.0
+        ],
+        [
+            "dim3",
+            -1.0
+        ]
+    ],
+    "dxf_filename": "/Users/creme_brule/Documents/5th Year/VSMN20/dxf_fem/wrench.dxf",
+    "fp": [
+        [
+            "handle"
+        ],
+        [
+            2000.0
+        ],
+        [
+            270.0
+        ]
+    ],
+    "mp": [
+        2,
+        2,
+        0.008
+    ],
+    "paramSteps": 5,
+    "ptype": 1,
+    "t": 0.01,
+    "units": "SI",
+    "v": 0.2,
+    "version": 1
+}

@@ -114,9 +114,9 @@ the object geometry. The CIRCLE tool can only be used for defining interior hole
 vtk = "\n'help -vtk' Selected:\n\n \
 Files outputted from a parameter study are stored in the .vtk format, and to be read by ParaView. To view the files \
 in ParaView, follow the steps below: \
-\n\n Under the toolbar, click 'Open' and select the .vtk cluster of the outputted files. \
-\n Click the 'Apply' button on the left hand side of the GUI. \
-\n Toggling through the various cases can be done by pressing the 'Rewind', 'Play', or 'Fast-Forward' buttons at \
+\n\n 1. Under the toolbar, click 'Open' and select the .vtk cluster of the outputted files. \
+\n 2. Click the 'Apply' button on the left hand side of the GUI. \
+\n 3. Toggling through the various cases can be done by pressing the 'Rewind', 'Play', or 'Fast-Forward' buttons at \
 the top of the GUI.\
 \n\n\
 "
@@ -138,9 +138,9 @@ be run. Note: The GUI inputs are NOT reset after this command.\
 overview = "\n'help -overview' Selected:\n\n \
 This specific model problem assumes the following:\
 \n\n A plate object is assumed to be suspended in zero gravity.\
-\n The object geometry is assumed to be constant with respect to its depth.\
-\n Plane stress is assumed to be applied. \
-\n Objects are assumed to remain in their elastic range (i.e.: constant proportional stress-strain relationship).\
+\n - The object geometry is assumed to be constant with respect to its depth.\
+\n - Plane stress is assumed to be applied. \
+\n - Objects are assumed to remain in their elastic range (i.e.: constant proportional stress-strain relationship).\
 \n\n\
 "
 
@@ -152,5 +152,8 @@ menu = {
     'help -dxf\n' : dxf,
     'help -vtk\n' : vtk,
     'help -toolbar\n' : toolbar,
-    'help -overview\n' : overview
+    'help -overview\n' : overview,
+    'help -geometry\n' : geo,
+    'help -mesh\n' : mesh,
+    'help -bc\n' : bc
 }
